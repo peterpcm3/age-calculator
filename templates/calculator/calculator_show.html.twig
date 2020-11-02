@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block body_id 'calculator_show' %}
+
+{% block main %}
+    <div id="app-container"></div>
+{% endblock %}
+
+{% block javascripts %}
+    <script src="{{ asset('/dist/main.bundle.js') }}"></script>
+{% endblock %}
